@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/bookmark-landing-page-ix1QYeOUIB)
-- Live Site URL: [](https://app.netlify.com/sites/bookmark-landing-page-femk/overview)
+- [Solution URL](https://www.frontendmentor.io/solutions/bookmark-landing-page-ix1QYeOUIB)
+- [Live Site URL](https://app.netlify.com/sites/bookmark-landing-page-femk/overview)
 
 ## My process
 
