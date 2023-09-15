@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c1af0c170c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>logo-bookmark Landing Page - Frontend Master</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img
+          class="logo"
+          src="./images/logo-bookmark.svg"
+          alt="logo-bookmark"
+        />
+        <img
+          class="menu-logo hide"
+          src="./images/logo-footer.svg"
+          alt="logo-bookmark"
+        />
+        <span class="menu-icon">
+          <i
+            id="icon-hamburger"
+            class="fa-solid fa-bars fa-xl menu-btn"
+            alt="icon-hamburger"
+          ></i>
+        </span>
+        <div class="navbar-menu">
+          <nav>
+            <div class="menu-header">
+              <i
+                id="icon-close"
+                class="fa-solid fa-xmark fa-xl menu-btn"
+                alt="icon-close"
+              ></i>
+            </div>
+            <section class="navbar-items">
+              <ul>
+                <li>FEATURES</li>
+                <li>PRICING</li>
+                <li>CONTACT</li>
+                <li id="login">LOGIN</li>
+              </ul>
+            </section>
+            <section class="social-icons">
+              <img src="./images/icon-facebook.svg" alt="Facebook Icon" />
+              <img src="./images/icon-twitter.svg" alt="Twitter Icon" />
+            </section>
+          </nav>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-lead-img">
+            <img />
+            <div class="hero-lead-img-background"></div>
+          </div>
+          <div class="hero-lead-text">
+            <h2>A Simple Bookmark Manager</h2>
+            <p>
+              A clean and simple interface to organize your favourite websites.
+              Open a new browser tab and see your sites load instantly. Try it
+              for free.
+            </p>
+            <div class="hero-lead-text-buttons">
+              <button>Get it on Chrome</button>
+              <button>Get it on Firefox</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="features">
+        <section class="features-options">
+          <h2>Features</h2>
+          <p>
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+          <ul>
+            <li data-position="0" class="features-list">
+              Simple Bookmarking<span></span>
+            </li>
+            <li data-position="1" class="features-list">
+              Speedy Searching<span></span>
+            </li>
+            <li data-position="2" class="features-list">
+              Easy Sharing<span></span>
+            </li>
+          </ul>
+        </section>
+        <section class="features-content">
+          <div class="feature">
+            <img
+              src="./images/illustration-features-tab-1.svg"
+              alt="Bookmark in one click"
+            />
+            <div class="feature-text">
+              <h2>Bookmark in one click</h2>
+              <p>
+                Organize your bookmarks however you like. Our simple
+                drag-our-drop interface gives you complete control over how you
+                manage your favourite sites.
+              </p>
+              <button class="feature-button">More info</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="extension-download">
+        <div class="extension-download-text">
+          <h2>Download the extension</h2>
+          <p>
+            We've got more browsers in the pipeline. Please do let us know if
+            you've got a favourite you'd like us to prioritize.
+          </p>
+        </div>
+        <section class="download-options">
+          <div class="download">
+            <img src="./images/logo-chrome.svg" alt="Chrome Icon" />
+            <h2>Add to Chrome</h2>
+            <h4>Minimum version 62</h4>
+            <button>Add & Install Extension</button>
+          </div>
+
+          <div class="download">
+            <img src="./images/logo-firefox.svg" alt="Firefox Icon" />
+            <h2>Add to Firefox</h2>
+            <h4>Minimum version 55</h4>
+            <button>Add & Install Extension</button>
+          </div>
+          <div class="download">
+            <img src="./images/logo-opera.svg" />
+            <h2>Add to Opera</h2>
+            <h4>Minimum version 46</h4>
+            <button>Add & Install Extension</button>
+          </div>
+        </section>
+      </div>
+      <div class="faq-container">
+        <div class="faq-lead-text">
+          <h2>Frequently Asked Questions</h2>
+          <p>
+            Here are some of our FAQs. If you have other question you'd like
+            answered please feel free to email us.
+          </p>
+        </div>
+        <div class="faq-items"></div>
+        <button>More info</button>
+      </div>
+      <div class="email-registration">
+        <section class="email-registration-content">
+          <h4>35,000+ ALREADY JOINED</h4>
+          <h2>Stay up-to-date with what we're doing</h2>
+          <div class="email">
+            <input
+              class="email-input"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <span class="error-msg">Whoops, make sure it's an email</span>
+            <span class="success-msg"
+              >Thank you for registering to our newsletter!</span
+            >
+            <button class="email-submit">Contact us</button>
+          </div>
+        </section>
+      </div>
+      <div class="footer">
+        <div class="footer-container">
+          <img
+            class="footer-logo"
+            src="./images/logo-footer.svg"
+            alt="logo-bookmark"
+          />
+          <a href="#">FEATURES</a>
+          <a href="#">PRICING</a>
+          <a href="#">CONTACT</a>
+          <div class="footer-social-icons">
+            <img src="./images/icon-facebook.svg" alt="Facebook Icon" />
+            <img src="./images/icon-twitter.svg" alt="Twitter Icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
